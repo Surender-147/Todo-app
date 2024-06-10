@@ -1,9 +1,9 @@
 import React from "react";
-import CustomFrom from "../components/CustomFrom"
+import CustomForm from "../components/CustomForm"
 const page = () => {
   return (
     <>
-      <CustomFrom />
+      <CustomForm />
     </>
   );
 };

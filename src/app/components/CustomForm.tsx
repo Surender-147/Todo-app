@@ -1,7 +1,7 @@
 "use client"
 import { useForm } from "react-hook-form";
 
-const CustomFrom = () => {
+const CustomForm = () => {
   const {
     register,
     watch,
@@ -20,7 +20,7 @@ const CustomFrom = () => {
   return (
    <div className="max-w-[600px] mx-auto flex items-center h-screen   px-4">
      <form onSubmit={handleSubmit(formSubmit)} className="bg-gray-100 w-full p-6 rounded-lg shadow-md">
-     <h1 className="text-4xl font-bold text-center mb-6">Todo From</h1>
+     <h1 className="text-4xl font-bold text-center mb-6">Todo Form</h1>
 
       <div className="form-container flex gap-4 flex-col">
         <input
@@ -87,4 +87,4 @@ const CustomFrom = () => {
   );
 };
 
-export default CustomFrom;
+export default CustomForm;
